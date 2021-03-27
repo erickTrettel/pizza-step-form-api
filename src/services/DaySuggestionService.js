@@ -55,4 +55,13 @@ module.exports = {
       },
     }[dayOfTheWeek];
   },
+
+  selectPizzaOfTheDay(dayOfTheWeek) {
+    const pizza = this.findByDayOfTheWeek(dayOfTheWeek);
+
+    return {
+      pizza,
+      message: 'Parabéns, você recebeu pontos de benefício por ter escolhido a pizza do dia!'
+    }
+  }
 };
