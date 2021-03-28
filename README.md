@@ -11,6 +11,10 @@ Crie um arquivo _.env_ seguindo o exemplo e informe a porta em que o servidor de
 
 Dentro do projeto, você pode conferir um arquivo de importação para o Postman que contém os endpoints dessa API
 
+## Produção
+
+Você pode fazer requisições para esse projeto através [desta URL](https://pizza-step-form-api.herokuapp.com).
+
 ## Endpoints
 
 | Método | URL                  | Descrição                        |
